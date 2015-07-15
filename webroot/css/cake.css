@@ -3,7 +3,7 @@ a.disabled {
 }
 
 a:hover {
-  color: #15848F;
+  color:  #D83438;
 }
 
 a {
@@ -11,18 +11,18 @@ a {
 }
 
 .side-nav li a:not(.button) {
-  color: #15848F;
+  color:  #D83438;
 }
 
 .side-nav li a:not(.button):hover {
-  color: #15848F;
+  color:  #D83438;
 }
 
 header {
-  background-color: #15848F;
+  background-color: #D83438;
   color: #ffffff;
   font-size: 30px;
-  height: 84px;
+  height: 100px;
   line-height: 64px;
   padding: 16px 0px;
   box-shadow: 0px 1px rgba(0, 0, 0, 0.24);
@@ -34,7 +34,11 @@ header .header-title {
 
 
 legend {
-  color:#15848F;
+  color: #D83438;
+}
+
+.logo {
+max-height:50px;
 }
 
 .row {
@@ -43,13 +47,13 @@ legend {
 
 .actions.columns {
   margin-top:1rem;
-  border-left: 5px solid #15848F;
+  border-left: 5px solid  #D83438;
   padding-left: 15px;
   padding: 32px 20px;
 }
 
 .actions.columns h3 {
-  color:#15848F;
+  color: #D83438;
 }
 
 .index table {

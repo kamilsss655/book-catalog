@@ -1,0 +1,30 @@
+[15-Jul-2015 17:49:44 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/book-catalog-beta2/src/Template/Layout/default.ctp on line 39
+[15-Jul-2015 17:49:44 UTC] PHP Stack trace:
+[15-Jul-2015 17:49:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/book-catalog-beta2/webroot/index.php:0
+[15-Jul-2015 17:49:44 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/book-catalog-beta2/webroot/index.php:37
+[15-Jul-2015 17:49:44 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[15-Jul-2015 17:49:44 UTC] PHP   4. Cake\Controller\Controller->render() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:120
+[15-Jul-2015 17:49:44 UTC] PHP   5. Cake\View\View->render() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Controller/Controller.php:582
+[15-Jul-2015 17:49:44 UTC] PHP   6. Cake\View\View->renderLayout() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/View/View.php:472
+[15-Jul-2015 17:49:44 UTC] PHP   7. Cake\View\View->_render() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/View/View.php:510
+[15-Jul-2015 17:49:44 UTC] PHP   8. Cake\View\View->_evaluate() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/View/View.php:793
+[15-Jul-2015 17:49:48 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/book-catalog-beta2/src/Template/Layout/default.ctp on line 39
+[15-Jul-2015 17:49:48 UTC] PHP Stack trace:
+[15-Jul-2015 17:49:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/book-catalog-beta2/webroot/index.php:0
+[15-Jul-2015 17:49:48 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/book-catalog-beta2/webroot/index.php:37
+[15-Jul-2015 17:49:48 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[15-Jul-2015 17:49:48 UTC] PHP   4. Cake\Controller\Controller->render() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:120
+[15-Jul-2015 17:49:48 UTC] PHP   5. Cake\View\View->render() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Controller/Controller.php:582
+[15-Jul-2015 17:49:48 UTC] PHP   6. Cake\View\View->renderLayout() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/View/View.php:472
+[15-Jul-2015 17:49:48 UTC] PHP   7. Cake\View\View->_render() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/View/View.php:510
+[15-Jul-2015 17:49:48 UTC] PHP   8. Cake\View\View->_evaluate() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/View/View.php:793
+[15-Jul-2015 17:49:49 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/book-catalog-beta2/src/Template/Layout/default.ctp on line 39
+[15-Jul-2015 17:49:49 UTC] PHP Stack trace:
+[15-Jul-2015 17:49:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/book-catalog-beta2/webroot/index.php:0
+[15-Jul-2015 17:49:49 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/book-catalog-beta2/webroot/index.php:37
+[15-Jul-2015 17:49:49 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[15-Jul-2015 17:49:49 UTC] PHP   4. Cake\Controller\Controller->render() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:120
+[15-Jul-2015 17:49:49 UTC] PHP   5. Cake\View\View->render() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Controller/Controller.php:582
+[15-Jul-2015 17:49:49 UTC] PHP   6. Cake\View\View->renderLayout() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/View/View.php:472
+[15-Jul-2015 17:49:49 UTC] PHP   7. Cake\View\View->_render() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/View/View.php:510
+[15-Jul-2015 17:49:49 UTC] PHP   8. Cake\View\View->_evaluate() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/View/View.php:793
