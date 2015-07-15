@@ -28,3 +28,71 @@
 [15-Jul-2015 17:49:49 UTC] PHP   6. Cake\View\View->renderLayout() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/View/View.php:472
 [15-Jul-2015 17:49:49 UTC] PHP   7. Cake\View\View->_render() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/View/View.php:510
 [15-Jul-2015 17:49:49 UTC] PHP   8. Cake\View\View->_evaluate() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/View/View.php:793
+[15-Jul-2015 18:38:28 UTC] PHP Parse error:  syntax error, unexpected ''name'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/ubuntu/workspace/book-catalog-beta2/src/Model/Table/AuthorsTable.php on line 33
+[15-Jul-2015 18:38:28 UTC] PHP Stack trace:
+[15-Jul-2015 18:38:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/book-catalog-beta2/webroot/index.php:0
+[15-Jul-2015 18:38:28 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/book-catalog-beta2/webroot/index.php:37
+[15-Jul-2015 18:38:28 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[15-Jul-2015 18:38:28 UTC] PHP   4. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:114
+[15-Jul-2015 18:38:28 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Controller/Controller.php:411}() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Controller/Controller.php:411
+[15-Jul-2015 18:38:28 UTC] PHP   6. App\Controller\BooksController->add() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Controller/Controller.php:411
+[15-Jul-2015 18:38:28 UTC] PHP   7. Cake\ORM\Association->find() /home/ubuntu/workspace/book-catalog-beta2/src/Controller/BooksController.php:58
+[15-Jul-2015 18:38:28 UTC] PHP   8. Cake\ORM\Association->target() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/ORM/Association.php:581
+[15-Jul-2015 18:38:28 UTC] PHP   9. Cake\ORM\TableRegistry::get() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/ORM/Association.php:298
+[15-Jul-2015 18:38:28 UTC] PHP  10. Cake\Core\App::className() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/ORM/TableRegistry.php:179
+[15-Jul-2015 18:38:28 UTC] PHP  11. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Core/App.php:66
+[15-Jul-2015 18:38:28 UTC] PHP  12. class_exists() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Core/App.php:89
+[15-Jul-2015 18:38:28 UTC] PHP  13. spl_autoload_call() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Core/App.php:89
+[15-Jul-2015 18:38:28 UTC] PHP  14. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Core/App.php:89
+[15-Jul-2015 18:38:28 UTC] PHP  15. Composer\Autoload\includeFile() /home/ubuntu/workspace/book-catalog-beta2/vendor/composer/ClassLoader.php:301
+[15-Jul-2015 18:50:11 UTC] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/ubuntu/workspace/book-catalog-beta2/src/Model/Table/AuthorsTable.php on line 31
+[15-Jul-2015 18:50:11 UTC] PHP Stack trace:
+[15-Jul-2015 18:50:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/book-catalog-beta2/webroot/index.php:0
+[15-Jul-2015 18:50:11 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/book-catalog-beta2/webroot/index.php:37
+[15-Jul-2015 18:50:11 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[15-Jul-2015 18:50:11 UTC] PHP   4. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:114
+[15-Jul-2015 18:50:11 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Controller/Controller.php:411}() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Controller/Controller.php:411
+[15-Jul-2015 18:50:11 UTC] PHP   6. App\Controller\BooksController->add() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Controller/Controller.php:411
+[15-Jul-2015 18:50:11 UTC] PHP   7. Cake\ORM\Association->find() /home/ubuntu/workspace/book-catalog-beta2/src/Controller/BooksController.php:58
+[15-Jul-2015 18:50:11 UTC] PHP   8. Cake\ORM\Association->target() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/ORM/Association.php:581
+[15-Jul-2015 18:50:11 UTC] PHP   9. Cake\ORM\TableRegistry::get() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/ORM/Association.php:298
+[15-Jul-2015 18:50:11 UTC] PHP  10. Cake\Core\App::className() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/ORM/TableRegistry.php:179
+[15-Jul-2015 18:50:11 UTC] PHP  11. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Core/App.php:66
+[15-Jul-2015 18:50:11 UTC] PHP  12. class_exists() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Core/App.php:89
+[15-Jul-2015 18:50:11 UTC] PHP  13. spl_autoload_call() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Core/App.php:89
+[15-Jul-2015 18:50:11 UTC] PHP  14. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Core/App.php:89
+[15-Jul-2015 18:50:11 UTC] PHP  15. Composer\Autoload\includeFile() /home/ubuntu/workspace/book-catalog-beta2/vendor/composer/ClassLoader.php:301
+[15-Jul-2015 18:50:12 UTC] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/ubuntu/workspace/book-catalog-beta2/src/Model/Table/AuthorsTable.php on line 31
+[15-Jul-2015 18:50:12 UTC] PHP Stack trace:
+[15-Jul-2015 18:50:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/book-catalog-beta2/webroot/index.php:0
+[15-Jul-2015 18:50:12 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/book-catalog-beta2/webroot/index.php:37
+[15-Jul-2015 18:50:12 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[15-Jul-2015 18:50:12 UTC] PHP   4. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:114
+[15-Jul-2015 18:50:12 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Controller/Controller.php:411}() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Controller/Controller.php:411
+[15-Jul-2015 18:50:12 UTC] PHP   6. App\Controller\BooksController->add() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Controller/Controller.php:411
+[15-Jul-2015 18:50:12 UTC] PHP   7. Cake\ORM\Association->find() /home/ubuntu/workspace/book-catalog-beta2/src/Controller/BooksController.php:58
+[15-Jul-2015 18:50:12 UTC] PHP   8. Cake\ORM\Association->target() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/ORM/Association.php:581
+[15-Jul-2015 18:50:12 UTC] PHP   9. Cake\ORM\TableRegistry::get() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/ORM/Association.php:298
+[15-Jul-2015 18:50:12 UTC] PHP  10. Cake\Core\App::className() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/ORM/TableRegistry.php:179
+[15-Jul-2015 18:50:12 UTC] PHP  11. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Core/App.php:66
+[15-Jul-2015 18:50:12 UTC] PHP  12. class_exists() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Core/App.php:89
+[15-Jul-2015 18:50:12 UTC] PHP  13. spl_autoload_call() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Core/App.php:89
+[15-Jul-2015 18:50:12 UTC] PHP  14. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Core/App.php:89
+[15-Jul-2015 18:50:12 UTC] PHP  15. Composer\Autoload\includeFile() /home/ubuntu/workspace/book-catalog-beta2/vendor/composer/ClassLoader.php:301
+[15-Jul-2015 18:50:15 UTC] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/ubuntu/workspace/book-catalog-beta2/src/Model/Table/AuthorsTable.php on line 31
+[15-Jul-2015 18:50:15 UTC] PHP Stack trace:
+[15-Jul-2015 18:50:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/book-catalog-beta2/webroot/index.php:0
+[15-Jul-2015 18:50:15 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/book-catalog-beta2/webroot/index.php:37
+[15-Jul-2015 18:50:15 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[15-Jul-2015 18:50:15 UTC] PHP   4. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:114
+[15-Jul-2015 18:50:15 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Controller/Controller.php:411}() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Controller/Controller.php:411
+[15-Jul-2015 18:50:15 UTC] PHP   6. App\Controller\AuthorsController->add() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Controller/Controller.php:411
+[15-Jul-2015 18:50:15 UTC] PHP   7. Cake\Controller\Controller->__get() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Controller/Controller.php:48
+[15-Jul-2015 18:50:15 UTC] PHP   8. Cake\Controller\Controller->loadModel() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Controller/Controller.php:345
+[15-Jul-2015 18:50:15 UTC] PHP   9. Cake\ORM\TableRegistry::get() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php:99
+[15-Jul-2015 18:50:15 UTC] PHP  10. Cake\Core\App::className() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/ORM/TableRegistry.php:179
+[15-Jul-2015 18:50:15 UTC] PHP  11. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Core/App.php:66
+[15-Jul-2015 18:50:15 UTC] PHP  12. class_exists() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Core/App.php:89
+[15-Jul-2015 18:50:15 UTC] PHP  13. spl_autoload_call() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Core/App.php:89
+[15-Jul-2015 18:50:15 UTC] PHP  14. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/book-catalog-beta2/vendor/cakephp/cakephp/src/Core/App.php:89
+[15-Jul-2015 18:50:15 UTC] PHP  15. Composer\Autoload\includeFile() /home/ubuntu/workspace/book-catalog-beta2/vendor/composer/ClassLoader.php:301

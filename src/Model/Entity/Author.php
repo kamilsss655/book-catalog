@@ -21,4 +21,11 @@ class Author extends Entity
         'active' => true,
         'books' => true,
     ];
+    
+    protected function _getFullName()
+    {
+        return $this->_properties['first_name'] . '  ' .
+            $this->_properties['last_name'];
+    }
+    
 }

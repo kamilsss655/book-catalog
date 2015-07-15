@@ -46,7 +46,7 @@ max-height:50px;
 }
 
 .actions.columns {
-  margin-top:1rem;
+  margin-top:2rem;
   border-left: 5px solid  #D83438;
   padding-left: 15px;
   padding: 32px 20px;
@@ -57,7 +57,7 @@ max-height:50px;
 }
 
 .index table {
-  margin-top: 2rem;
+  margin-top: 3rem;
   border: 0;
 }
 
@@ -116,11 +116,11 @@ ul.pagination li.active a {
 }
 
 button {
-  background: #8D6E65;
+  background: #7ad834;
 }
 
 .form button:hover, .form button:focus {
-  background: #7A6058;
+  background: #55892f;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.26) !important;
 }
 

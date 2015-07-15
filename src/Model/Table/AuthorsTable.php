@@ -15,6 +15,8 @@ use Cake\Validation\Validator;
 class AuthorsTable extends Table
 {
 
+
+
     /**
      * Initialize method
      *
@@ -24,7 +26,8 @@ class AuthorsTable extends Table
     public function initialize(array $config)
     {
         $this->table('authors');
-        $this->displayField('id');
+        //fix this
+        $this->displayField('full_name');
         $this->primaryKey('id');
         $this->belongsToMany('Books', [
             'foreignKey' => 'author_id',
