@@ -1,24 +1,16 @@
-# CakePHP Application Skeleton
+# Currency converter demo app
 
 [![Build Status](https://api.travis-ci.org/cakephp/app.png)](https://travis-ci.org/cakephp/app)
 [![License](https://poser.pugx.org/cakephp/app/license.svg)](https://packagist.org/packages/cakephp/app)
 
-A skeleton for creating applications with [CakePHP](http://cakephp.org) 3.0.
+![alt tag](https://github.com/kamilsss655/currency-converter/blob/master/webroot/img/logo.png)
 
-## Installation
+A book catalog demo app with [CakePHP](http://cakephp.org) 3.0.
 
-1. Download [Composer](http://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
-2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
 
-If Composer is installed globally, run
-```bash
-composer create-project --prefer-dist cakephp/app [app_name]
-```
+##Technologies used
+1. CakePHP 3.0
+2. MySQL
 
-You should now be able to visit the path to where you installed the app and see
-the setup traffic lights.
-
-## Configuration
-
-Read and edit `config/app.php` and setup the 'Datasources' and any other
-configuration relevant for your application.
+##Screenshots
+![alt tag](https://github.com/kamilsss655/book-catalog/blob/master/webroot/img/screenshot.png)
