@@ -17,10 +17,9 @@
                 'label' => 'Date of birth', 
                 'dateFormat' => 'DMY',
                 'minYear' => date('Y') - 100,
-                'maxYear' => date('Y') - 10));
-
+                'maxYear' => date('Y') - 10 ));
             echo $this->Form->input('active');
-            echo $this->Form->input('books._ids', ['options' => $books]);
+            //echo $this->Form->input('books._ids', ['options' => $books]);
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>

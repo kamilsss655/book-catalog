@@ -19,6 +19,9 @@
  */
 require __DIR__ . '/paths.php';
 
+//Character encoding
+header('Content-Type: text/html; charset=utf-8');
+
 // Use composer to load the autoloader.
 require ROOT . DS . 'vendor' . DS . 'autoload.php';
 
