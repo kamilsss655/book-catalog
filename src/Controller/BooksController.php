@@ -12,6 +12,17 @@ class BooksController extends AppController
 {
 
     /**
+     * Display method
+     *
+     * @return void
+     */
+    public function display()
+    {
+        $this->set('books', $this->paginate($this->Books));
+        $this->set('_serialize', ['books']);
+    }
+    
+    /**
      * Index method
      *
      * @return void
