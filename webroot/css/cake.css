@@ -123,7 +123,9 @@ ul.pagination li.active a {
   text-align: right;
   color: rgba(0, 0 ,0 , 0.54);
 }
-
+p {
+  color: black;
+}
 button {
   background: #7ad834;
 }

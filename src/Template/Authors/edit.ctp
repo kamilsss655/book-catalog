@@ -19,7 +19,11 @@
         <?php
             echo $this->Form->input('first_name');
             echo $this->Form->input('last_name');
-            echo $this->Form->input('birthdate');
+            echo $this->Form->input('birthdate', array(
+                'label' => 'Date of birth', 
+                'dateFormat' => 'DMY',
+                'minYear' => date('Y') - 100,
+                'maxYear' => date('Y') - 10 ));
             echo $this->Form->input('active');
             echo $this->Form->input('books._ids', ['options' => $books]);
         ?>
