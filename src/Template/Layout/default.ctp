@@ -48,6 +48,8 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
             </div>
         </div>
         <footer>
+            <hr>
+            <p>Author: Kamil Cyrkler, 2015</p>
         </footer>
     </div>
 </body>

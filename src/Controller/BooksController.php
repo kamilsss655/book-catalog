@@ -10,6 +10,19 @@ use App\Controller\AppController;
  */
 class BooksController extends AppController
 {
+    //Pagination functions
+    public $paginate = [
+        'limit' => 10,
+        'order' => [
+        'Books.title' => 'asc'
+        ]
+    ];
+    //Load paginator
+    public function initialize()
+    {
+        parent::initialize();
+        $this->loadComponent('Paginator');
+    }
 
     /**
      * Display method
