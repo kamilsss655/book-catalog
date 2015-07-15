@@ -1,14 +1,14 @@
 <?php
 namespace App\Test\TestCase\Model\Table;
 
-use App\Model\Table\BooksTable;
+use App\Model\Table\BooksCategoriesTable;
 use Cake\ORM\TableRegistry;
 use Cake\TestSuite\TestCase;
 
 /**
- * App\Model\Table\BooksTable Test Case
+ * App\Model\Table\BooksCategoriesTable Test Case
  */
-class BooksTableTest extends TestCase
+class BooksCategoriesTableTest extends TestCase
 {
 
     /**
@@ -17,11 +17,11 @@ class BooksTableTest extends TestCase
      * @var array
      */
     public $fixtures = [
+        'app.books_categories',
         'app.books',
         'app.authors',
         'app.authors_books',
-        'app.categories',
-        'app.books_categories'
+        'app.categories'
     ];
 
     /**
@@ -32,8 +32,8 @@ class BooksTableTest extends TestCase
     public function setUp()
     {
         parent::setUp();
-        $config = TableRegistry::exists('Books') ? [] : ['className' => 'App\Model\Table\BooksTable'];
-        $this->Books = TableRegistry::get('Books', $config);
+        $config = TableRegistry::exists('BooksCategories') ? [] : ['className' => 'App\Model\Table\BooksCategoriesTable'];
+        $this->BooksCategories = TableRegistry::get('BooksCategories', $config);
     }
 
     /**
@@ -43,7 +43,7 @@ class BooksTableTest extends TestCase
      */
     public function tearDown()
     {
-        unset($this->Books);
+        unset($this->BooksCategories);
 
         parent::tearDown();
     }
@@ -59,11 +59,11 @@ class BooksTableTest extends TestCase
     }
 
     /**
-     * Test validationDefault method
+     * Test buildRules method
      *
      * @return void
      */
-    public function testValidationDefault()
+    public function testBuildRules()
     {
         $this->markTestIncomplete('Not implemented yet.');
     }
